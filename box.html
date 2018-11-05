@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>Blog | Amaze UI Example</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-siteapp"/>
+  <link rel="alternate icon" type="image/png" href="assets/i/favicon.png">
+  <link rel="stylesheet" href="assets/css/amazeui.min.css"/>
+  <link rel="stylesheet" href="assets/css/animate.css"/>
+<script src="http://s.amazeui.org/assets/2.x/js/jquery.min.js"></script>
+
+<style type="text/css">
+  .alertbox{
+    position: fixed!important;
+    z-index: 1010;
+        transform-origin: 0 0;
+            margin: 0px;
+    top: 0px;
+    left: 10%;
+    width: 80%;
+  }
+</style>
+
+</head>
+<body>
+
+
+ <article class="blog-main">
+      <h3 class="am-article-title blog-title">
+        <a href="#">Google fonts 的字體（display 篇）</a>
+      </h3>
+      <h4 class="am-article-meta blog-meta">by <a href="">open</a> posted on 2014/06/17 under <a href="#">字体</a></h4>
+
+      <div class="am-g blog-content">
+        <div class="am-u-lg-7">
+          <p><!-- 本demo来自 http://blog.justfont.com/ -->你自信滿滿的跟客戶進行第一次 demo。秀出你精心設計的內容時，你原本期許客戶冷不防地掉下感動的眼淚。</p>
+
+          <p>因為那實在是太高級了。</p>
+
+          <p>除了各項基本架構幾乎完美無缺之外，內文是高貴的，有著一些距離感的，典雅的襯線字體。不是 Times New
+            Roman，而是很少有人見過的，你精心挑選過的字體，凸顯你品味的高超。而且它並沒有花上你與業主一毛錢，或許這也非常重要。</p>
+        </div>
+     
+      </div>
+      <div class="am-g">
+        <div class="am-u-sm-12">
+          <p>看著自己的作品，你的喜悅之情溢於言表，差點就要說出我要感謝我的父母之類的得獎感言。但在你對面的客戶先是一點表情也沒有，又瞬間轉為陰沉，抿了抿嘴角冷冷的說……</p>
+
+          <p>「我要一種比較跳的感覺懂嗎？」</p>
+        </div>
+      </div>
+    </article>
+     <article class="blog-main">
+      <h3 class="am-article-title blog-title">
+        <a href="#">Google fonts 的字體（display 篇）</a>
+      </h3>
+      <h4 class="am-article-meta blog-meta">by <a href="">open</a> posted on 2014/06/17 under <a href="#">字体</a></h4>
+
+      <div class="am-g blog-content">
+        <div class="am-u-lg-7">
+          <p><!-- 本demo来自 http://blog.justfont.com/ -->你自信滿滿的跟客戶進行第一次 demo。秀出你精心設計的內容時，你原本期許客戶冷不防地掉下感動的眼淚。</p>
+
+          <p>因為那實在是太高級了。</p>
+
+          <p>除了各項基本架構幾乎完美無缺之外，內文是高貴的，有著一些距離感的，典雅的襯線字體。不是 Times New
+            Roman，而是很少有人見過的，你精心挑選過的字體，凸顯你品味的高超。而且它並沒有花上你與業主一毛錢，或許這也非常重要。</p>
+        </div>
+     
+      </div>
+      <div class="am-g">
+        <div class="am-u-sm-12">
+          <p>看著自己的作品，你的喜悅之情溢於言表，差點就要說出我要感謝我的父母之類的得獎感言。但在你對面的客戶先是一點表情也沒有，又瞬間轉為陰沉，抿了抿嘴角冷冷的說……</p>
+
+          <p>「我要一種比較跳的感覺懂嗎？」</p>
+        </div>
+      </div>
+    </article>
+
+
+<div class="am-alert am-alert-success alertbox am-animation-slide-top " style="display:none;">
+
+</div>
+
+<script type="text/javascript">
+function alertbox(messages)
+{ 
+  $('.alertbox').show();
+  $('.alertbox').html(messages);
+setTimeout(function(){
+     $('.alertbox').addClass("fadeOutUp animated");
+},2000);
+setTimeout(function(){
+      $('.alertbox').hide(0);
+     $('.alertbox').removeClass("fadeOutUp animated");
+},2800);
+
+}
+</script>
+
+
+<script src="assets/js/amazeui.min.js"></script>
+
+</body>
+</html>
